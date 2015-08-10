@@ -92,6 +92,10 @@
 #include "sama5d2_xplained.h"
 #endif
 
+#ifdef CONFIG_PICOSAM
+#include "picosam.h"
+#endif
+
 /*
  * Functions Prototype
  */
